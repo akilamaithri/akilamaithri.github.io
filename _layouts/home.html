@@ -71,34 +71,16 @@ bodyClass: "page-home"
       </div>
       {% endfor %}
   </div>
-
-    <!-- old -->
-    <!-- <div class="row justify-content-start">
-      {% assign limit = site.home.limit_services | default: 6 %}
-      {% for people in site.people limit: limit %}
-      <div class="col-12 col-md-4 mb-1">
-        <div class="team team-summary">
-            {% if people.image %}
-                <div class="team-image">
-                    <img width="60" height="60" alt="{{ people.title }}" class="img-fluid mb-2" src="{{ people.image | relative_url }}" />
-                </div>
-            {% endif %}
-            <h5 class="service-title">
-              <a href="{{ service.url | relative_url }}">{{ people.name }}</a>
-            </h5>
-            <p>{{ people.excerpt | markdownify | strip_html | truncate: 100 }}</p>
-        </div>
-      </div>
-      {% endfor %}
-    </div> -->
-    <div class="row justify-content-center">
-      <div class="col-auto">
-        <a class="button button-primary" href="{{ "people" | relative_url }}">View All People</a>
-      </div>
+  <!-- Button -->
+  <div class="row justify-content-center">
+    <div class="col-auto">
+      <a class="button button-primary" href="{{ "people" | relative_url }}">View All People</a>
     </div>
   </div>
 </div>
+</div>
 
+<!-- Joining the lab -->
 <div class="strip">
   <div class="container pt-6 pb-6">
     <h1 style="text-align: center;">Joining the lab</h1>
@@ -108,6 +90,36 @@ bodyClass: "page-home"
     </div>
   </div>
 </div>
+
+<!-- Projects -->
+<div class="strip strip-grey">
+  <div class="container pt-6 pb-6 pb-md-10">
+    <h1 style="text-align: center;">Software, Datasets, and Resources</h1>
+    <div class="row justify-content-start">
+      <div class="row pt-6 pb-6">
+        {% assign limit = site.home.limit_services | default: 6 %}
+        {% for service in site.services limit: limit %}
+        <div class="col-12 col-md-4 mb-1">
+          <div class="service service-summary">
+            <div class="service-content">
+              <h2 class="service-title">
+                <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
+              </h2>
+              <p>{{ service.excerpt | markdownify | strip_html | truncate: 100 }}</p>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-auto">
+        <a class="button button-primary" href="{{ "services" | relative_url }}">View All Projects</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- new -->
 
 {% if site.data.features %}
 <div class="strip">
