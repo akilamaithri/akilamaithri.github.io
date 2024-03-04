@@ -99,6 +99,16 @@ bodyClass: "page-home"
   </div>
 </div>
 
+<div class="strip">
+  <div class="container pt-6 pb-6">
+    <h1 style="text-align: center;">Joining the lab</h1>
+    <div class="row pt-6 pb-6">
+      {% capture join_content %}{% include_relative join.md %}{% endcapture %}
+      {{ join_content | markdownify }}
+    </div>
+  </div>
+</div>
+
 {% if site.data.features %}
 <div class="strip">
   <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
