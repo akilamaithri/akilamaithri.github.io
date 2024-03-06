@@ -10,9 +10,9 @@
     padding-bottom: 140px;
   }
   h1 {
-    color: $black;
+    color: $blue;
+    font-family: $font-family-heading;
     font-size: 42px;
-    font-weight: bold;
     line-height: 1.5;
     @include media-breakpoint-up(md) {
       width: 100%;
@@ -28,7 +28,7 @@
     line-height: 1.4;
     margin-bottom: 30px;
     color: $black;
-    font-family: $font-family-base;
+    font-family: $font-family-heading;
   }
   p {
     font-size: 1.2rem;

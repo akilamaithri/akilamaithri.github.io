@@ -11,6 +11,6 @@ random: lala
 
 Welcome to
 
-# Research Lab
+# SPINE Research Group at RMIT
 
-ESRG at Stanford CS is like your go-to crew for crushing Internet security, owning privacy problems, and shutting down online hate and fake news. We're not your average lab – we build slick systems, gather global data, and cook up dope solutions. Ready to vibe with us and change the digital game? 
+SPINE (Security, Privacy, Intelligence, and Edge Research Group) at RMIT is a dynamic research lab dedicated to advancing the frontiers of digital exploration. Specializing in security, privacy, and intelligence, the group pioneers cutting-edge research at the intersection of technology and innovation. 

@@ -38,7 +38,7 @@ bodyClass: "page-home"
 <div class="intro">
   <div class="container">
     <div class="row justify-content-start">
-      <div class="col-12 col-md-12 col-lg-12 mt-0" style="text-align: center;">
+      <div class="col-12 col-md-12 col-lg-12 mt-0"">
           {{ content }}
       </div>
       {% if page.intro_image %}
@@ -49,11 +49,11 @@ bodyClass: "page-home"
     </div>
   </div>
 </div>
-
+<!-- People -->
 <div class="strip strip-grey">
   <div class="container pt-6 pb-6">
-    <h1 style="text-align: center;">People</h1>
     <div class="row pt-6 pb-6">
+      <h1>People</h1>
       {% assign people = site.people %}
       {% for people in people %}
       <div class="col-12 col-md-4 mb-3">
@@ -74,7 +74,7 @@ bodyClass: "page-home"
   <!-- Button -->
   <div class="row justify-content-center">
     <div class="col-auto">
-      <a class="button button-primary" href="{{ "people" | relative_url }}">View All People</a>
+      <a class="button" href="{{ "people" | relative_url }}">View All People</a>
     </div>
   </div>
 </div>
@@ -83,8 +83,7 @@ bodyClass: "page-home"
 <!-- Joining the lab -->
 <div class="strip">
   <div class="container pt-6 pb-6">
-    <h1 style="text-align: center;">Joining the lab</h1>
-    <div class="row pt-6 pb-6">
+    <h1>Joining the lab</h1>
       {% capture join_content %}{% include_relative join.md %}{% endcapture %}
       {{ join_content | markdownify }}
     </div>
@@ -94,9 +93,9 @@ bodyClass: "page-home"
 <!-- Projects -->
 <div class="strip strip-grey">
   <div class="container pt-6 pb-6 pb-md-10">
-    <h1 style="text-align: center;">Software, Datasets, and Resources</h1>
     <div class="row justify-content-start">
       <div class="row pt-6 pb-6">
+        <h1>Software, Datasets, and Resources</h1>
         {% assign limit = site.home.limit_services | default: 6 %}
         {% for service in site.services limit: limit %}
         <div class="col-12 col-md-4 mb-1">
@@ -121,24 +120,3 @@ bodyClass: "page-home"
 </div>
 <!-- new -->
 
-{% if site.data.features %}
-<div class="strip">
-  <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
-    <div class="row justify-content-center">
-
-      {% for feature in site.data.features %}
-      <div class="col-12 col-md-6 col-lg-4 mb-2">
-        <div class="feature">
-          {% if feature.image %}
-          <div class="feature-image"><img alt="{{ feature.title }} logo" src="{{ feature.image.url | relative_url }}" width="{{ feature.image.width }}" height="{{ feature.image.height }}" /></div>
-          {% endif %}
-          <h2 class="feature-title">{{ feature.title }}</h2>
-          <div class="feature-content">{{ feature.description }}</div>
-        </div>
-      </div>
-      {% endfor %}
-
-    </div>
-  </div>
-</div>
-{% endif %}
