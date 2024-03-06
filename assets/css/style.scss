@@ -2,13 +2,16 @@
 ---
 
 // Colors
-$primary: #e5261f;
+$primary: #E61E2A;
 $primary-dark: #a01b16;
 $secondary: #f88379;
 $black: #2f2f41;
 $white: #ffffff;
-$white-offset: #fff6f8;
+$white-offset: #f6f6f6;
 $steel: #5c5a5a;
+$red: #E61E2A;
+$grey: #E3E5E0;
+$blue: #222160;
 
 // Links
 $link-color: $primary;
@@ -17,13 +20,13 @@ $link-hover-color: lighten($primary, 10%);
 $link-hover-decoration: underline;
 
 // Fonts
-$font-family-base: Helvetica, Arial, sans-serif, -apple-system;
-$font-family-heading: "Playfair Display", serif, -apple-system;
+$font-family-base: Arial, sans-serif, -apple-system;
+$font-family-heading: "Playfair Display", sans-serif, -apple-system;
 
 // Footer
-$footer-background-color: $primary;
+$footer-background-color: $blue;
 $footer-text-color: $white;
-$sub-footer-background-color: darken($primary, 10%);
+$sub-footer-background-color: darken($blue, 10%);
 $sub-footer-text-color: $white;
 
 // Bootstrap 5.3.2
@@ -100,7 +103,7 @@ $sub-footer-text-color: $white;
 @import "components/strip";
 @import "components/feature";
 @import "components/social";
-// @import "components/fonts"; // Uncomment this line to self host font
+@import "components/fonts"; // Uncomment this line to self host font
 
 // Pages
 @import "pages/page-home";
