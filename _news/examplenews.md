@@ -1,5 +1,5 @@
 ---
-title: "Heading 1"
+title: "This is a news heading"
 datetime: 2018-12-28
 author: Mick Jagger 
 ---
