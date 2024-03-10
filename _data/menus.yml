@@ -8,8 +8,8 @@ main:
   - name: "Collaborators"
     url: "/collab/"
     weight: 4
-  - name: "About"
-    url: "/about/"
+  - name: "News"
+    url: "/news/"
     weight: 5
   - name: "Contact"
     url: "/contact/"
