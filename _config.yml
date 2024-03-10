@@ -21,6 +21,8 @@ collections:
     output: true
   people:
     output: true
+  news:
+    output: true
 
 defaults:
   - scope:
@@ -38,6 +40,11 @@ defaults:
       type: "people"
     values:
       layout: "people"
+  - scope:
+      path: ""
+      type: "news"
+    values:
+      layout: "singlenews"
 
 sass:
   style: compressed # possible values: nested expanded compact compressed
