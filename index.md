@@ -1,7 +1,7 @@
 ---
 title: SPINE Research Group
 layout: home
-description: Jekyll Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
+description: SPINE (Security, Privacy, Intelligence, and Edge Research Group) at RMIT is a dynamic research lab dedicated to advancing the frontiers of digital exploration.
 intro_image: "images/illustrations/pointing.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
