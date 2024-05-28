@@ -6,7 +6,7 @@ main:
     url: "/people/"
     weight: 3
   - name: "Collaborators"
-    url: "/collab/"
+    url: "/people/"
     weight: 4
   - name: "News"
     url: "/news/"

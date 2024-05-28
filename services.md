@@ -7,6 +7,6 @@ intro_image_absolute: true
 intro_image_hide_on_mobile: true
 ---
 
-# All the awesome projects at Research lab
+# All the awesome projects at SPINE Research Group
 
-Have a look at all the Software, Datasets, and Resources made by the people at Research Lab
+Have a look at all the Software, Datasets, and Resources made by the people at SPINE Research Group

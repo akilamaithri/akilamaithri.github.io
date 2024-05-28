@@ -9,4 +9,4 @@ intro_image_hide_on_mobile: true
 
 # Team
 
-View all the awesome people who work at Research lab.
+View all the awesome people who work at SPINE Research Group.
