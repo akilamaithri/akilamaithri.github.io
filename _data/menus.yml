@@ -2,17 +2,17 @@ main:
   - name: "Projects"
     url: "/services/"
     weight: 2
+  - name: "Publications"
+    url: "/publications/"
+    weight: 3
   - name: "People"
     url: "/people/"
-    weight: 3
+    weight: 4
   - name: "Collaborators"
     url: "/people/"
-    weight: 4
+    weight: 5
   - name: "News"
     url: "/news/"
-    weight: 5
-  - name: "Contact"
-    url: "/contact/"
     weight: 6
   
 

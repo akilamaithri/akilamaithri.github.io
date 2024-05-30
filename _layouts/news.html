@@ -21,8 +21,8 @@ bodyClass: "page-services"
             <h2 class="service-title">
               <a href="{{ news.url | relative_url }}">{{ news.title }}</a>
             </h2>
-            <p class="newsauthor">By {{ news.author}}</p>
-            <p class="newsDateTime">
+            <p class="subTextBold">By {{ news.author}}</p>
+            <p class="subTextLight">
                 {{ news.datetime | date: "%Y-%m-%d" }}
             </p>            
               <p>{{ news.excerpt | markdownify | strip_html | truncate: 200 }}</p>
