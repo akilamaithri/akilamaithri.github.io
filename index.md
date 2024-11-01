@@ -15,5 +15,3 @@ Email: [kil@ucsc.cmb.ac.lk](mailto:kil@ucsc.cmb.ac.lk)
 Work: [Google Scholar](https://scholar.google.com/citations?user=Zv_xhb8AAAAJ&hl=en) ~ [GitHub](https://github.com/akilamaithri/)
 
 Socials: [Facebook](https://www.facebook.com/akila.my3/) ~ [LinkedIn](https://www.linkedin.com/in/akilamaithri/) ~ [Twitter](https://twitter.com/akilamaithri) ~ [Music](https://www.last.fm/user/akilamaithri) ~ [Film](https://letterboxd.com/akilamaithri/)
-
-git remote add origin https://github.com/akilamaithri/akilamaithri.github.io.git
