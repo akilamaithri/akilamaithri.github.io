@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" name="top">
+{% include head.html %}
+
+<body>
+  <main>
+    <header>{% include nav.html %}</header>
+    <section>
+      {{ content }}
+      <div>
+        <h2><a href="{{ " blog" | relative_url }}">Blog</a></h2>
+        <hr>
+        {% assign sorted_posts = site.posts | sort: 'datee' | reverse %}
+        {% for post in sorted_posts limit: 5 %}
+        <div>
+          <span class="blogDate">{{post.datee}}</span>
+          <p class="blogTitle"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></p>
+        </div>
+        {% endfor %}
+      </div>
+
+    </section>
+  </main>
+  {% include footer.html %}
+</body>
+
+</html>

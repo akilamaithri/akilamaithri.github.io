@@ -7,7 +7,7 @@ author:
 
 description: Akila Maithripala is a what?
 
-url: "https://jekyll-academic.netlify.app" # The base hostname & protocol for your site, e.g. http://example.com
+url: "https://akilamaithri.github.io/" # The base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # The subpath of your site, e.g. /blog
 
 jekyllacademic:
@@ -16,7 +16,7 @@ jekyllacademic:
   footer: Akila Maithripala, 2024 # Your name, Year
   contentlicense: "MIT" # Choose either one of these to put: MIT, Commons Clause, CC BY 4.0, CC BY-NC 4.0, CC BY-ND 4.0, CC BY-NC-ND 4.0, CC BY-NC-SA 4.0, CC BY-NC-SA 4.0, CC BY-SA 4.0
   # socials:
-  #   twitter: akilamaithri # Your twitter username
+    # twitter: akilamaithri # Your twitter username
   #   github: akilamaithri # Your github username
   #   linkedin: unavailable # Your linkedin
   #   keybase: keybase # Your keybase
@@ -38,6 +38,9 @@ collections:
     output: true
     permalink: /:year/:month/:day/:slug
   projects:
+    output: true
+    permalink: /:collection/:title
+  publications:
     output: true
     permalink: /:collection/:title
 
