@@ -23,7 +23,7 @@ layout: default
 	}
 </style>
 <section class="posts">
-  <h1 style="color: #cc0000">Example Blog</h1>
+  <h1 style="color: #cc0000">Blog</h1>
   <div id="search-container">
     <input type="text" id="search-input" placeholder="Search for a tag or post...">
     <ol id="results-container"></ol>
@@ -41,7 +41,7 @@ layout: default
   <h2 style="color: #cc0000">Posts</h2>
   <ul>
     {% for post in site.posts %}
-      <li><a style="color: black;" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%m-%d-%Y" }}</time></li>
+      <li><a style="color: black;" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time></li>
     {% endfor %}
   </ul>
 </section>
