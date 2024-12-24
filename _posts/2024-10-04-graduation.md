@@ -9,4 +9,4 @@ datee: 2024-10-04
 
 Yay!
 .
-Thank you people for Sri Lanka for funding my education 🙏
+Thank you people of Sri Lanka for funding my education 🙏
