@@ -1,7 +1,7 @@
 ---
 layout: contact
 ---
-Email: kil[at]ucsc[dot]cmb[dot]ac[dot]lk
+Email: kil[at]ucsc.cmb.ac.lk
 
 Work: [Google Scholar](https://scholar.google.com/citations?user=Zv_xhb8AAAAJ&hl=en) ~ [ORCID](https://orcid.org/my-orcid?orcid=0009-0003-9748-2930) ~ [GitHub](https://github.com/akilamaithri/)
 
