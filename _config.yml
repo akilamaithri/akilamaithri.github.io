@@ -11,7 +11,7 @@ url: "https://akilamaithri.github.io/" # The base hostname & protocol for your s
 baseurl: "" # The subpath of your site, e.g. /blog
 
 jekyllacademic:
-  homepage_title: "Akila Maithripala's Home Page" # Your homepage title
+  homepage_title: "Akila Maithripala" # Your homepage title
   disqusname: # Your disqus sitename
   footer: Akila Maithripala, 2026 # Your name, Year
   contentlicense: "MIT" # Choose either one of these to put: MIT, Commons Clause, CC BY 4.0, CC BY-NC 4.0, CC BY-ND 4.0, CC BY-NC-ND 4.0, CC BY-NC-SA 4.0, CC BY-NC-SA 4.0, CC BY-SA 4.0
