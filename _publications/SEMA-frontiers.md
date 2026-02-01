@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "SEMA: utilizing multi-sensory cues to enhance the art experience of visually impaired students"
-stack: "Frontiers in Computer Science"
+stack: "Frontiers in Computer Science (2024)"
 pinned: true
 order: 1
 pdf: "https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2024.1450799/pdf"

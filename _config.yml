@@ -3,17 +3,17 @@ navbar_title: Home
 
 author:
   name: Akila Maithripala # Your name
-  email: kil@ucsc.cmb.ac.lk
+  email: akila.maithripala@student.rmit.edu.au
 
-description: Akila Maithripala is a what?
+description: Akila Maithripala - PhD student at RMIT University researching privacy-preserving machine learning, differential privacy, and edge intelligence. Research interests include privacy in Large Language Models, network science, and private agentic AI.
 
 url: "https://akilamaithri.github.io/" # The base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # The subpath of your site, e.g. /blog
 
 jekyllacademic:
-  homepage_title: "Akila Maithripala" # Your homepage title
+  homepage_title: "Akila Maithripala's Home Page" # Your homepage title
   disqusname: # Your disqus sitename
-  footer: Akila Maithripala, 2025 # Your name, Year
+  footer: Akila Maithripala, 2026 # Your name, Year
   contentlicense: "MIT" # Choose either one of these to put: MIT, Commons Clause, CC BY 4.0, CC BY-NC 4.0, CC BY-ND 4.0, CC BY-NC-ND 4.0, CC BY-NC-SA 4.0, CC BY-NC-SA 4.0, CC BY-SA 4.0
   # socials:
     # twitter: akilamaithri # Your twitter username
